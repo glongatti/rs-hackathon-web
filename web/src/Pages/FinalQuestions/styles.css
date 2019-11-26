@@ -1,0 +1,16 @@
+.tag-area {
+  border: 1px solid #00adb5;
+  background-color: #00adb5;
+  border-radius: 31px;
+  padding: 10px;
+  font-size: 25px;
+  position: absolute;
+  top: -50px;
+  left: 20px;
+}
+
+.col-linear {
+  background: linear-gradient(rgba(0, 173, 181, 1), rgba(0, 0, 0, 0));
+  padding: 20px;
+  border-radius: 20px
+}

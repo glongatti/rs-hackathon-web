@@ -1,0 +1,17 @@
+.button-response {
+  border-radius: 16px;
+  max-width: 100%;
+  padding: 0 30px;
+  background-color: transparent;
+  border: 3px solid white;
+  text-transform: uppercase;
+}
+
+.button-response:hover {
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
+.button-response:active {
+  background-color: #00adb5;
+  border-color: #00adb5;
+}
