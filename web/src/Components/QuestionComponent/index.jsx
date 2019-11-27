@@ -4,11 +4,13 @@ import React from "react";
 import { Avatar, Col, Row } from "antd";
 import {} from "antd";
 import "./styles.css";
+import { withRouter } from "react-router-dom";
 
-export default function QuestionComponent({
+function QuestionComponent({
   questionName,
   responses,
-  questionsNumber
+  questionsNumber,
+  history
 }) {
   return (
     <>
@@ -45,7 +47,12 @@ export default function QuestionComponent({
         <Col span={16}>
           {responses.map(item => (
             <Col span={6} style={{ textAlign: "center" }}>
-              <button className={"button-response"}>{item.name}</button>
+              <button
+                className={"button-response"}
+                onClick={() => history.push("/final")}
+              >
+                {item.name}
+              </button>
             </Col>
           ))}
         </Col>
@@ -53,3 +60,5 @@ export default function QuestionComponent({
     </>
   );
 }
+
+export default withRouter(QuestionComponent);

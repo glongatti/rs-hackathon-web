@@ -1,0 +1,8 @@
+.button-home {
+  border-radius: 16px;
+  max-width: 100%;
+  padding: 0 30px;
+  background-color: #00adb5;
+  border-color: #00adb5;
+  text-transform: uppercase;
+}
