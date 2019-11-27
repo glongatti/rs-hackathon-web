@@ -1,7 +1,7 @@
 import React from "react";
 import { Avatar, Col, Row, Button } from "antd";
 import "./styles.css";
-
+import img from "../../images/logo-02.png";
 import { withRouter } from "react-router-dom";
 function Home(props) {
   return (
@@ -23,7 +23,7 @@ function Home(props) {
             textAlign: "center"
           }}
         >
-          <Avatar size={120} icon="user" />
+          <img src={img} width="380" />
         </Col>
         <Col
           span={24}
