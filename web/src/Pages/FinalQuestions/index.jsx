@@ -2,6 +2,9 @@ import React from "react";
 import { Avatar, Col, Row, Steps, Popover } from "antd";
 import "./styles.css";
 // import { Container } from './styles';
+import MentorsCard from "../../Components/MentorsCard";
+import CoursesCard from "../../Components/CoursesCard";
+import UsefulLinkCard from "../../Components/UsefulLinkCard";
 
 export default function FinalQuestions() {
   return (
@@ -40,6 +43,34 @@ export default function FinalQuestions() {
                 usuário e utilizará a interface que foi desenvolvida pelo
                 programador frontend.
               </p>
+            </Col>
+          </Row>
+          <Row type="flex" align="middle" justify="center">
+            <Col span={8}>
+              <h3>MENTORES</h3>
+            </Col>
+            <Col span={8}>
+              <h3>CURSOS</h3>
+            </Col>
+            <Col span={8}>
+              <h3>LINKS ÚTEIS</h3>
+            </Col>
+          </Row>
+          <Row type="flex" align="middle" justify="center">
+            <Col span={8}>
+              <MentorsCard />
+              <MentorsCard />
+              <MentorsCard />
+            </Col>
+            <Col span={8}>
+              <CoursesCard />
+              <CoursesCard />
+              <CoursesCard />
+            </Col>
+            <Col span={8}>
+              <UsefulLinkCard />
+              <UsefulLinkCard />
+              <UsefulLinkCard />
             </Col>
           </Row>
         </Col>

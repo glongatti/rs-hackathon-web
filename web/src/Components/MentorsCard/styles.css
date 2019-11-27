@@ -1,0 +1,13 @@
+.mentors-card {
+  background-color: #393e46;
+  width: 80%;
+  border-radius: 16px;
+  padding: 10px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+p.mentors-info {
+  margin-bottom: 0;
+  margin-left: 21px;
+}
